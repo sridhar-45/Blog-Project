@@ -1,0 +1,164 @@
+/* h1{
+  font-family: Oak,sans-serif;
+  color: rgba(0,0,0,0.7);
+  position:relative;
+  top:calc(50% - 80px);
+  left:calc(50% - 130px);
+} */
+
+.techfont {
+    font-family: 'RUSSO one', sans-serif;
+    font-size : 1.5em;
+    margin-bottom: 10px;
+}
+
+.bigband{
+    font-size: 1.5em;
+}
+
+.centerstage{
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.postdate{
+    text-align:center;
+}
+
+.posttitle{
+    font-family: 'Russo One',sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.postcontent{
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+}
+
+.btn-comment{
+    position: absolute;
+    right: 0px;
+}
+/* COLOR CHANGER BELOW */
+
+/* .loader {
+  filter:hue-rotate(0deg);
+  color:linear-gradient(45deg,#0f8,#08f);
+  animation:hue 10000ms infinite linear;
+ 
+} */
+
+
+
+@keyframes spinify {
+  0% {
+    transform: translate(0px,0px);
+    
+  }
+  33% {
+    transform: translate(0px,24px);
+    border-radius:100%;
+    width:10px;
+    height:10px;
+ 
+  }
+   66% {
+    transform:translate(0px,-16px);
+  }
+  
+   88% {
+    transform:translate(0px,4px);
+     
+  }
+  100% {
+    transform:translate(0px,0px);
+  }
+}
+
+/* @keyframes hue{
+  0%{filter: hue-rotate(0deg);}
+  100%{filter:hue-rotate(360deg);}
+  
+} */
+
+
+
+/* using my point of custom css */
+.navbar-brand.bigbrand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+  color: #333; /* Dark text for contrast */
+  text-decoration: none;
+}
+
+.navbar-brand.bigbrand:hover {
+  color: #007bff; /* Bootstrap primary blue on hover */
+  text-decoration: none;
+}
+
+.brand-highlight {
+  color: #007bff; /* Bootstrap primary */
+}
+
+.bi {
+  margin-right: 5px;
+  font-size: 1.6rem;
+  vertical-align: middle;
+}
+
+
+
+
+
+.custom-navbar {
+  background-color: #343a40;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.bigbrand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #fff;
+}
+
+.navbar-brand {
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 0.95rem;
+  color: #f8f9fa;
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+
+.custom-login-icon {
+  font-size: 1.3rem;  /* or 1.5rem or 2rem as you like */
+  margin-right: 4px;  /* adds a bit of spacing to text */
+  vertical-align: middle; /* aligns nicely with text */
+}
+
+
+.user-icon {
+  font-size: 1.2rem;   /* adjust as needed */
+  margin-right: 6px;   /* spacing between icon and name */
+  vertical-align: middle; 
+}
+
+
+
+
